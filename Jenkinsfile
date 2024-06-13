@@ -6,7 +6,7 @@ pipeline {
     environment {
         PORT_CLIENT_ID = "sofrHu9n5JYBHEtYYzxERT7wnxF3ZxCG"
         PORT_CLIENT_SECRET = "2imgxDc9KCyxkRCZfOaVUhHWKiJvUe4yP3pGk0wEURpfrEMShup2MY3R2ud0AdaT"
-        ACCESS_TOKEN = ""
+        ACCESS_TOKEN = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvcmdJZCI6Im9yZ19WNURZWFhjajRkWDdLdzRSIiwiaXNzIjoiaHR0cHM6Ly9hcGkuZ2V0cG9ydC5pbyIsImlzTWFjaGluZSI6dHJ1ZSwic3ViIjoic29mckh1OW41SllCSEV0WVl6eEVSVDd3bnhGM1p4Q0ciLCJqdGkiOiI1OGYzMmE5MS00ZTljLTRkZjUtOWVlMS1kMGM0NTZhNWI5ZWMiLCJpYXQiOjE3MTgyNjk5OTYsImV4cCI6MTcxODI4MDc5Nn0.2MAdX44eYgI1k5-yMVCKFi09VSlwarIP-ltSf7ALWOM"
         RUN_ID = "YOUR_RUN_ID" // Set your RUN_ID here or pass it as a parameter
     }
 
