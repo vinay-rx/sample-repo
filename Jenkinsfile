@@ -39,6 +39,15 @@ pipeline {
             }
         }
 
+        stage('Set RUN_ID') {
+            steps {
+                script {
+                    // Retrieve the current build's run ID
+                    RUN_ID = currentBuild.id
+                }
+            }
+        }
+
         stage('Send logs example') {
             steps {
                 script {
